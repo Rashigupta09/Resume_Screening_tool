@@ -45,7 +45,7 @@ copy .env.example .env                  # macOS/Linux: cp .env.example .env
 # 3. Run — CLI ...
 python cli.py --jd data/job_description.txt --cv data/cv_01.txt
 # 3. ... or the UI
-streamlit run app.py
+.\.venv\Scripts\streamlit.exe run app.py
 
 # Tests
 pytest
