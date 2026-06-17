@@ -1,0 +1,16 @@
+# Core pipeline
+pdfplumber>=0.11.0           # PDF text extraction
+presidio-analyzer>=2.2.0     # local PII detection
+presidio-anonymizer>=2.2.0   # local PII replacement
+spacy>=3.7.0                 # NER backend for Presidio (model: en_core_web_md)
+boto3>=1.40.0                # AWS Bedrock Converse API (bearer-token auth needs >=1.39)
+pyyaml>=6.0                  # ranking_file.yaml (human-readable artifact)
+pydantic>=2.6.0              # validate LLM JSON output
+python-dotenv>=1.0.0         # AWS_REGION / MODEL_ID / INPUT_DIR config
+streamlit>=1.33.0            # UI
+
+# Dev / tests
+pytest>=8.0.0
+
+# After install, download the spaCy model:
+#   python -m spacy download en_core_web_md

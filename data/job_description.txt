@@ -1,0 +1,24 @@
+Senior Backend Engineer
+
+About the role
+We are hiring a Senior Backend Engineer to own critical server-side systems that power
+our payments platform. This is a hands-on, senior role with significant ownership.
+
+Required (must-have)
+- 5+ years building and operating production backend services at scale.
+- Strong experience designing and running RESTful APIs and event-driven services.
+- Deep working knowledge of relational databases (PostgreSQL) including query optimization.
+- Experience owning services in production: on-call, incident response, observability.
+- Proficiency in Python (or a comparable backend language) and solid testing discipline.
+
+Strongly preferred
+- Experience with cloud infrastructure (AWS) and infrastructure-as-code.
+- Exposure to payments, billing, or other high-reliability financial systems.
+
+Nice to have
+- Familiarity with message queues (Kafka, SQS) and caching layers (Redis).
+- Mentoring or technical-leadership experience.
+
+What success looks like
+You will be the primary owner of two production services, drive their reliability and
+performance, and raise the engineering bar through code review and mentorship.
